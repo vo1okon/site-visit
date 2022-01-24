@@ -1,1 +1,20 @@
-<p>memmos works!</p>
+<div class="container">
+    <div class="menu">
+        <button (click)='change_outfit()'>личное<br> снаряжение</button>
+        
+        <button (click)='change_doc()' >документы</button>
+        
+        <button (click)='change_food()'>еда в поезд</button>
+    </div>
+    <div>
+        <div class= "outfit" [ngStyle]="{display: outfit}">
+            <p>место для таблицы личного снаряжения</p>
+        </div>
+        <div class="documents" [ngStyle]="{display: documents}">
+            <p>место для списка документов</p>
+        </div>
+        <div class="food" [ngStyle]="{display: food}">
+            <p>место для памтки "еда в поезд"</p>
+        </div>
+    </div>
+</div>

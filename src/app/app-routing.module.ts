@@ -6,7 +6,7 @@ import { MemmosComponent } from './memmos/memmos.component';
 import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [
-  {path: ' ', component: NewsComponent},
+  {path: '', component: NewsComponent},
   {path: 'news', component:NewsComponent },
   {path: 'calendar', component:CalendarComponent },
   {path: 'memmos', component:MemmosComponent },
