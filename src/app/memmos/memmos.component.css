@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 1fr ;
+    margin-top: 30px ;
+}
+.outfit{
+    display:none;
+
+}
+button{
+    
+    background-color: #ffffff2d;
+    border-color: #71531E;   
+     
+}
+.menu{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
