@@ -18,7 +18,7 @@ table {
     border-style: solid;
 }
 .all{
-    background: url("../bg.png");
+    background: url("../../assets/bg.png");
     background-size: 100%;
     min-height: 100vh;
     height: 100%;
