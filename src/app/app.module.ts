@@ -7,6 +7,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { MemmosComponent } from './memmos/memmos.component';
 import { NewsComponent } from './news/news.component';
 import { AboutComponent } from './about/about.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AboutComponent } from './about/about.component';
     CalendarComponent,
     MemmosComponent,
     NewsComponent,
-    AboutComponent
+    AboutComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

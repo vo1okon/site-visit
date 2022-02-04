@@ -1,7 +1,7 @@
 .container{
     display: grid;
-    grid-template-columns: 100px 1fr ;
-    margin-top: 30px ;
+    grid-template-columns: 170px 1fr ;
+    
 }
 
 button{
@@ -12,5 +12,14 @@ button{
 }
 .menu{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 1fr;
+}
+table {
+    border-style: solid;
+}
+.all{
+    background: url("../bg.png");
+    background-size: 100%;
+    min-height: 100vh;
+    height: 100%;
 }

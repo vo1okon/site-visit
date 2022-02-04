@@ -5,11 +5,24 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './calendar.component.html',
   styleUrls: ['./calendar.component.css']
 })
-export class CalendarComponent implements OnInit {
+export class CalendarComponent {
 
-  constructor() { }
+  cal_visibility = "none";
+  table_visibility = "table";
 
-  ngOnInit(): void {
+  table_on(){
+    if(this.cal_visibility==="inline")
+    {
+      this.cal_visibility="none";
+    }
+    this.table_visibility = "table";
   }
-
+  calen_on(){
+    if(this.table_visibility==="table")
+    {
+      this.table_visibility="none";
+    }
+    this.cal_visibility = "inline";
+    
+  }
 }

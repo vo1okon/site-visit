@@ -1,7 +1,18 @@
 <nav>
-  <a routerLink="news">news</a>
-  <a routerLink="calendar">calendar</a>
-  <a routerLink="memmos">memos</a>
+  <div class="top">
+  <span>Антарес</span>
+  <a routerLink="news" [ngStyle]='{color: news}' (click)="n_on()">Новости</a>
+  <a routerLink="calendar" [ngStyle]='{color: calendar}' (click)="c_on()">Календарь</a>
+  <a routerLink="memmos" [ngStyle]='{color: memmos}'(click)="m_on()" >Памятки</a>
+  <a routerLink="about" [ngStyle]='{color: about}' (click)="a_on()">О нас</a>
+  <a routerLink="contacts" [ngStyle]='{color: contacts}' (click)="con_on()">Контакты</a>
+</div>
 </nav>
-<router-outlet></router-outlet>
-<br>
+<div class="all">
+  <router-outlet></router-outlet>
+</div>
+
+
+  <div class="down">
+    <p> (с) Максим Волков, 2022 </p>
+  </div>
