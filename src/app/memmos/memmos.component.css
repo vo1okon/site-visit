@@ -2,20 +2,27 @@
 .container{
     display: grid;
     grid-template-columns: 200px 0.7fr;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    
 }
 
 button{
-    
     background-color: #ffffff2d;
     border-color: #71531E;   
     background-color: #ffffffb3;
-}
-button{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
+    border-bottom: none;
 }
-
+.rest{
+ height:calc(100vh - 210px);
+ background-color: #ffffffb3;
+ border: solid #71531E 2px;
+ min-height: 100%;
+ overflow: auto;
+}
 .menu{
     display: grid;
     grid-template-rows: 70px 70px 70px 1fr;
@@ -30,7 +37,7 @@ td{
     border: black solid 1px;
     padding: 5px;
 }
- .center{
+.center{
     text-align: center;
     font-weight: 500;
 }

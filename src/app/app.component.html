@@ -1,13 +1,27 @@
 <div class="wrapper">
   <nav>
-    <div class="top">
+    <div class="top_big">
       <span>Антарес</span>
       <a routerLink="news" [ngStyle]='{color: news}' (click)="n_on()">Новости</a>
       <a routerLink="calendar" [ngStyle]='{color: calendar}' (click)="c_on()">Расписание</a>
       <a routerLink="memmos" [ngStyle]='{color: memmos}'(click)="m_on()" >Памятки</a>
       <a routerLink="about" [ngStyle]='{color: about}' (click)="a_on()">О нас</a>
       <a routerLink="contacts" [ngStyle]='{color: contacts}' (click)="con_on()">Контакты</a>
-  </div>
+    </div>
+    <div class="top_small">
+      
+      <div class="sec-center"> 	
+        <input class="dropdown" type="checkbox" id="dropdown" name="dropdown"/>
+        <label class="for-dropdown" for="dropdown"><img src="https://cdn-icons-png.flaticon.com/512/2099/2099153.png" class="png_menu"><i class="uil uil-arrow-down"></i></label>
+        <div class="section-dropdown"> 
+          <a routerLink="news" [ngStyle]='{color: news}' (click)="n_on()">Новости<i class="uil uil-arrow-right"></i></a>
+          <a routerLink="calendar" [ngStyle]='{color: calendar}' (click)="c_on()">Расписание<i class="uil uil-arrow-right"></i></a>
+          <a routerLink="memmos" [ngStyle]='{color: memmos}'(click)="m_on()">Памятки<i class="uil uil-arrow-right"></i></a>
+          <a routerLink="about" [ngStyle]='{color: about}' (click)="a_on()">О нас<i class="uil uil-arrow-right"></i></a>
+          <a routerLink="contacts" [ngStyle]='{color: contacts}' (click)="con_on()">Контакты<i class="uil uil-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
   </nav>
   <div class="all">
     <router-outlet></router-outlet>
