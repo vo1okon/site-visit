@@ -12,15 +12,16 @@ a{
     display:flex;
     align-items:center;
     font-size: 18px;
+    background-color: #D7BB8A;
+
 }
 a:hover{
     color: white;
     text-decoration: underline;
-    
 }
 nav{
     margin: 0px;
-    background-color: #D7BB8A;
+    
 }
 span{
     margin-right: 20px;
@@ -29,13 +30,6 @@ span{
     font-weight: bold;
     font-family:'Open Sans', sans-serif;
     color: #71531E;
-}
-#left{
-    float: left;
-}
-#right{ 
-    
-    float: right;
 }
 .down{
     height: 80px;
@@ -50,9 +44,16 @@ span{
     background: url("https://github.com/vo1okon/site-visit/blob/master/src/assets/bg.png?raw=true") no-repeat;
     background-size: 100%;
     box-sizing: border-box;
-    min-height: 98vh;
+    min-height: 100vh;
     padding-bottom: 80px;
 }
 .wrapper{
     height: 100%;
+}
+@media (max-width: 720px) {
+    .all{
+        /* background: url(../assets/background22.jpg); */
+        background: url("https://github.com/vo1okon/site-visit/blob/master/src/assets/bg.png?raw=true");
+    }
+    
 }
