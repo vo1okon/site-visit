@@ -74,6 +74,9 @@ p{
     padding: 5px 20px 5px 20px;
     
 }
+button:active{
+    background-color: lightgray;
+}
 @media (max-width: 720px) {
     .container{
         grid-template-columns: none;
