@@ -80,13 +80,13 @@ p{
         grid-template-rows: auto 1fr;
     }
     .menu{
-        grid-template-columns: auto auto auto 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        height: 70px;
-       
     }
     button{
         border-bottom: solid #71531E 2px;
+        padding-top: calc(1.4rem / 4);
+        padding-bottom: calc(1.4rem / 4);
     }
     .rest{
         display: none;
@@ -94,5 +94,8 @@ p{
         margin-top: 0px;
         /* height: 70px;
         min-height: auto; */
+    }
+    .tables{
+        margin:0;
     }
 }
