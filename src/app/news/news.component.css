@@ -21,7 +21,7 @@ p{
     position: relative;
     background-color: #ffffffb3 ;
     margin-top: 10rem;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
 }
 .inner2 {
@@ -29,10 +29,13 @@ p{
     position: relative;
     background-color: #ffffffb3 ;
     margin-top: 3rem;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
 }
-
+.date{
+    color: #71531E;
+    font-weight: bold;
+}
 .overflow {
     float: right;
     border: solid 2px #71531E;
@@ -43,6 +46,15 @@ img{
     height: 14rem;
 }
 .asd{
-    
     margin-right: 10rem;
+}
+@media (max-width: 710px)
+{
+    img{
+        margin-left: calc(50% - 14rem);
+        
+    }
+    .asd{
+        margin-right: 0rem;
+    }
 }
