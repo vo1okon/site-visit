@@ -31,7 +31,7 @@ table {
     border-style: solid;
     border-collapse: collapse;
     background-color: #ffffffb3 ;
-    
+    border: solid black 1px;
 }
 td{
     border: black solid 1px;
@@ -44,6 +44,7 @@ td{
 .tables{
     margin-top: 30px;
     margin-left: 50px;
+    
 }
 .food{
     background-color: #ffffffb3;
@@ -72,4 +73,26 @@ p{
     background-color:  #ffffffb3;
     padding: 5px 20px 5px 20px;
     
+}
+@media (max-width: 720px) {
+    .container{
+        grid-template-columns: none;
+        grid-template-rows: auto 1fr;
+    }
+    .menu{
+        grid-template-columns: auto auto auto 1fr;
+        grid-template-rows: 1fr;
+        height: 70px;
+       
+    }
+    button{
+        border-bottom: solid #71531E 2px;
+    }
+    .rest{
+        display: none;
+      
+        margin-top: 0px;
+        /* height: 70px;
+        min-height: auto; */
+    }
 }
