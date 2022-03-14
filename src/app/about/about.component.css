@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-p{
+h6{
     margin-top: 3rem;
     margin-left: 15%;
     margin-right: 15%;
@@ -9,4 +9,5 @@ p{
     font-size: 20px;
     border: 1px solid #71531E;
     background-color: #ffffffb3;
+    font-weight: normal;
 }
