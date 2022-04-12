@@ -8,6 +8,7 @@ import { MemmosComponent } from './memmos/memmos.component';
 import { NewsComponent } from './news/news.component';
 import { AboutComponent } from './about/about.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { ExpeditionComponent } from './expedition/expedition.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     MemmosComponent,
     NewsComponent,
     AboutComponent,
-    ContactsComponent
+    ContactsComponent,
+    ExpeditionComponent
   ],
   imports: [
     BrowserModule,

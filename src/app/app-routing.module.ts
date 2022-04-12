@@ -5,6 +5,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { MemmosComponent } from './memmos/memmos.component';
 import { NewsComponent } from './news/news.component';
+import { ExpeditionComponent } from './expedition/expedition.component';
 
 const routes: Routes = [
   {path: '', component: NewsComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'memmos', component:MemmosComponent },
   {path: 'about', component:AboutComponent},
   {path: 'contacts', component:ContactsComponent },
+  {path: 'expedition', component:ExpeditionComponent },
   {path: '%%', component:NewsComponent}
 ];
 

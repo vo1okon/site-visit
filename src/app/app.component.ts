@@ -13,6 +13,7 @@ export class AppComponent {
   memmos = 'black';
   about = 'black';
   contacts = "black";
+  expedition = "black"
 
   n_on(){
     this.news = 'white';
@@ -20,6 +21,7 @@ export class AppComponent {
     this.memmos = 'black';
     this.about = 'black';
     this.contacts = 'black';
+    this.expedition = 'black';
   }
   c_on(){
     this.news = 'black';
@@ -27,6 +29,7 @@ export class AppComponent {
     this.memmos = 'black';
     this.about = 'black';
     this.contacts = 'black';
+    this.expedition = 'black';
   }
   m_on(){
     this.news = 'black';
@@ -34,6 +37,7 @@ export class AppComponent {
     this.memmos = 'white';
     this.about = 'black';
     this.contacts = 'black';
+    this.expedition = 'black';
   }
   a_on(){
     this.news = 'black';
@@ -41,6 +45,7 @@ export class AppComponent {
     this.memmos = 'black';
     this.about = 'white';
     this.contacts = 'black';
+    this.expedition = 'black';
   }
   con_on(){
     this.news = 'black';
@@ -48,5 +53,14 @@ export class AppComponent {
     this.memmos = 'black';
     this.about = 'black';
     this.contacts = 'white';
+    this.expedition = 'black';
+  }
+  exp_on(){
+    this.news = 'black';
+    this.calendar = 'black';
+    this.memmos = 'black';
+    this.about = 'black';
+    this.contacts = 'black';
+    this.expedition = 'white';
   }
 }
