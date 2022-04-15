@@ -7,13 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'site-visit';
-
   news = 'white';
   calendar = 'black';
   memmos = 'black';
   about = 'black';
   contacts = "black";
   expedition = "black"
+
+  opacity = 0;
+
+  opacity1(){
+    this.opacity = 1;
+  }
 
   n_on(){
     this.news = 'white';
@@ -22,6 +27,7 @@ export class AppComponent {
     this.about = 'black';
     this.contacts = 'black';
     this.expedition = 'black';
+    this.opacity = 0;
   }
   c_on(){
     this.news = 'black';
@@ -30,6 +36,7 @@ export class AppComponent {
     this.about = 'black';
     this.contacts = 'black';
     this.expedition = 'black';
+    this.opacity = 0;
   }
   m_on(){
     this.news = 'black';
@@ -38,6 +45,7 @@ export class AppComponent {
     this.about = 'black';
     this.contacts = 'black';
     this.expedition = 'black';
+    this.opacity = 0;
   }
   a_on(){
     this.news = 'black';
@@ -46,6 +54,7 @@ export class AppComponent {
     this.about = 'white';
     this.contacts = 'black';
     this.expedition = 'black';
+    this.opacity = 0;
   }
   con_on(){
     this.news = 'black';
@@ -54,6 +63,7 @@ export class AppComponent {
     this.about = 'black';
     this.contacts = 'white';
     this.expedition = 'black';
+    this.opacity = 0;
   }
   exp_on(){
     this.news = 'black';
@@ -62,5 +72,6 @@ export class AppComponent {
     this.about = 'black';
     this.contacts = 'black';
     this.expedition = 'white';
+    this.opacity = 0;
   }
 }
